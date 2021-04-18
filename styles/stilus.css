@@ -1,58 +1,61 @@
 header {
-    border-radius: 10px;
-    background-color: rgba(255, 0, 34, 0.452);
-    padding: 10px;
-    margin: 10px;
+    background-color: rgba(255, 0, 34, 0.411);
+    padding: 10px 0px;
+    margin: 0px;
+    text-align: right;
 }
 
 header img {
-    float: left;
-    margin: 20px 10px 0px 10px;
+    float:left;
+    margin: 0px;
+    height: 70px;
 }
 
 div#wrapper {
-    margin: 10px;
+    margin: 0px;
 }
 
 aside {
-    display: table-cell;
-    vertical-align: top;
+    display: table-header-group;
+    vertical-align: middle;
     
 }
 
 nav {
-    margin: 0px 10px 0px 0px;
+    margin: 0;
     top: 0px;
-    border-radius: 10px;
+    width: 100%;
     background-color: #00ff2a;
 }
 
 nav ul {
-    list-style-type:circle;
+    overflow: hidden;
+    list-style-type:none;
     margin: 0px;
-    padding: 15px 0px;
+    padding: 0;
 }
 
 nav ul li {
     float: left;
-    padding: 0px 15px;;
+    padding: 10px 15px;;
 }
 
-nav ul li.active {
-    border-right: 5px solid blue;
-}
 
 nav ul a {
     text-decoration: none;
     color: blue;
     display: block;
+
+}
+
+nav ul a:hover {
+    color: white;
 }
 
 div#content {
     display: table-cell;
     width: 100%;
-    border-radius: 10px;
-    background-color: #99FFCC;
+    background-color: #99c5ff;
     padding: 15px;
 }
 

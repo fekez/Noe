@@ -14,7 +14,7 @@
         <div id="content">
             <?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
         </div>
-		
+
     </div>
 	<?php if(file_exists('./templates/pages/footer.php')) include('./templates/pages/footer.php') ?>
 </body>
