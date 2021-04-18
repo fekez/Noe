@@ -1,6 +1,6 @@
 header {
     border-radius: 10px;
-    background-color: yellow;
+    background-color: rgba(255, 0, 34, 0.452);
     padding: 10px;
     margin: 10px;
 }
@@ -17,22 +17,24 @@ div#wrapper {
 aside {
     display: table-cell;
     vertical-align: top;
+    
 }
 
 nav {
     margin: 0px 10px 0px 0px;
     top: 0px;
     border-radius: 10px;
-    background-color: #FF6600;
+    background-color: #00ff2a;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type:circle;
     margin: 0px;
     padding: 15px 0px;
 }
 
 nav ul li {
+    float: left;
     padding: 0px 15px;;
 }
 
@@ -43,6 +45,7 @@ nav ul li.active {
 nav ul a {
     text-decoration: none;
     color: blue;
+    display: block;
 }
 
 div#content {
