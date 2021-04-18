@@ -9,21 +9,12 @@
 <body>
 	<?php if(file_exists('./templates/pages/header.php')) include('./templates/pages/header.php') ?>
     <div id="wrapper">
-        <aside id="nav">
-            <nav>
-                <ul>
-					<?php foreach ($oldalak as $url => $oldal) { ?>
-						<li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
-						<a href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
-						<?= $oldal['szoveg'] ?></a>
-						</li>
-					<?php } ?>
-                </ul>
-            </nav>
-        </aside>
+		<?php if(file_exists('./templates/pages/aside.php')) include('./templates/pages/aside.php') ?>
+
         <div id="content">
             <?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
         </div>
+		
     </div>
 	<?php if(file_exists('./templates/pages/footer.php')) include('./templates/pages/footer.php') ?>
 </body>
