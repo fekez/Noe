@@ -4,12 +4,7 @@ header {
     margin: 0px;
     text-align: right;
     line-height: 70px;
-}
-
-header div.cim {
-    height:max-content;
-    padding: 0px 30px;
-    height: 70px;
+    padding: 0px 30px 0px 0px;
 }
 
 header img {
