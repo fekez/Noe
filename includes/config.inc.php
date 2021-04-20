@@ -5,19 +5,25 @@ $ablakcim = array(
 
 $fejlec = array(
     'kepforras' => 'logo.gif',
-    'kepalt' => 'logo',
-	'cim' => 'Noé Állatotthon Alapítvány',
-	'motto' => ''
-);
+    'kepalt' => 'Noé Állatotthon Alapítvány',
+	'cim' => 'Noé Állatotthon Alapítvány');
 
 $lablec = array(
     'copyright' => 'Copyright '.date("Y").'.',
     'ceg' => 'Noé Állatotthon Alapítvány'
 );
 
+$rolunk = array(
+    '1' => array('kepforras' => '1.jpg', 'kepalt' => 'Telep kinézete'),
+    '2' => array('kepforras' => '2.jpg', 'kepalt' => 'Zoli és Hédi'),
+    '3' => array('kepforras' => '3.jpg', 'kepalt' => 'Operáción átesett kutya'),
+    '4' => array('kepforras' => '4.jpg', 'kepalt' => 'Állatsimogatás'),
+    '5' => array('kepforras' => '5.jpg', 'kepalt' => 'Megmentett kutyák')
+);
+
 $oldalak = array(
-	'/' => array('fajl' => 'cimlap', 'szoveg' => 'Címlap', 'menun' => array(1,1)),
-	'bemutatkozas' => array('fajl' => 'bemutatkozas', 'szoveg' => 'Bemutatkozás', 'menun' => array(1,1)),
+	'/' => array('fajl' => 'fooldal', 'szoveg' => 'Főoldal', 'menun' => array(1,1)),
+	'rolunk' => array('fajl' => 'rolunk', 'szoveg' => 'Rólunk', 'menun' => array(1,1)),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)),
 	'cikkek' => array('fajl' => 'cikkek', 'szoveg' => 'Cikkek', 'menun' => array(1,1)),
     'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'Táblázat', 'menun' => array(1,1)),

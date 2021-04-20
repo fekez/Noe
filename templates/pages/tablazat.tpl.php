@@ -1,4 +1,4 @@
-<table>
+<table class="tablazat">
     <caption>5. gyakorlat 1. feladat:<br>TÁBLÁZAT</caption>
     <tr>
         <th>Employee</th>
