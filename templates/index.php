@@ -14,5 +14,21 @@
 		}
 	}
 	else $keres = $oldalak['/'];
+	
+	if (isset($oldalak['galeria']) && file_exist("./templates/pages/{$oldalak['galeria']['fajl']}.tpl.php") && $keres=='galeria')
+	{
+		$kepek = array();
+		$olvaso = opendir($MAPPA);
+		while (($fajl = readdir($olvaso)) !== false)	{
+			 if (is_file($MAPPA.$fajl))	{
+				 $vege = strtolower(substr($fajl, strlen($fajl)-4));
+				if (in_array($vege, $TIPUSOK)) {
+					 $kepek[$fajl] = filemtime($MAPPA.$fajl);
+					 echo $kepek[$fajl];
+				}
+			}
+		}
+		closedir($olvaso);
+	}
 	include('./templates/index.tpl.php'); 
 ?>
