@@ -21,11 +21,17 @@ $rolunk = array(
     '5' => array('kepforras' => '5.jpg', 'kepalt' => 'Megmentett kutyák')
 );
 
+$fooldal = array(
+    'njuhasz' => array('forras' => './images/njuhasz.jpg', 'alt' => 'Német juhász'),
+    'youtube' => array('forras' => 'https://www.youtube.com/embed/HUdyMNzjJCc'),
+    'video' => array('forras' => './images/video.mp4'),
+);
+
 $oldalak = array(
 	'/' => array('fajl' => 'fooldal', 'szoveg' => 'Főoldal', 'menun' => array(1,1)),
 	'rolunk' => array('fajl' => 'rolunk', 'szoveg' => 'Rólunk', 'menun' => array(1,1)),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)),
-	'cikkek' => array('fajl' => 'cikkek', 'szoveg' => 'Cikkek', 'menun' => array(1,1)),
+	'galeria' => array('fajl' => 'galeria', 'szoveg' => 'Galéria', 'menun' => array(1,1)),
     'tablazat' => array('fajl' => 'tablazat', 'szoveg' => 'Táblázat', 'menun' => array(1,1)),
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'Belépés', 'menun' => array(1,0)),
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0,1)),
@@ -34,4 +40,11 @@ $oldalak = array(
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
+
+$MAPPA = './images/';
+$TIPUSOK = array ('.jpg', '.png', 'gif');
+$MEDIATIPUSOK = array('image/jpeg', 'image/png', 'image/gif');
+$DATUMFORMA = "Y.m.d. H:i";
+$MAXMERET = 500*1024;
+
 ?>
