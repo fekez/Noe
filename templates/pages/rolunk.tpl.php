@@ -1,8 +1,9 @@
-<h2>Noé állatotthon alapítvány</h2>
+<h1>Noé állatotthon alapítvány</h1>
+<br>
 <img src="<?='./images/'.$rolunk['1']['kepforras']?>" alt="<?=$rolunk[1]['kepalt'] ?>">
 <p>Budapest legnagyobb állatotthonaként 1992 óta végezzük a bajba jutott, megkínzott, balesetet szenvedett állatok mentését. 3,5 hektáros, 2009. évtől majdnem 8 hektáros állatmenhelyünk jelenleg közel ezer kutya, cica, malac, kecske, juh, strucc, nyuszi, tengerimalac, csirke, kacsa, liba, páva, vaddisznó, mosómedve, ormányos medve, borz, ló, póni, szamár, láma, díszmadár, galamb, varjú, teknős, és szarvasmarha átmeneti, vagy - sok esetben - végleges otthona. 2012. tavaszától pedig bajba jutott főemlősöknek is segítünk.</p>
 
-<h3>A kezdetektől napjainkig</h3>
+<h2>A kezdetektől napjainkig</h2>
 <p>A NOÉ Állatotthon Alapítvány Budapest máig legnagyobb állatmenhelye 1992 óta működik saját anyagi erőforrásainkból, és csak 2000-ben alakult alapítvánnyá, de azóta is normatív állami támogatás nélkül, önerőből és a támogatók jóvoltából tartja fent magát és látja el két-, három- és négylábú védenceit.</p>
 
 <img src="<?='./images/'.$rolunk['2']['kepforras']?>" alt="<?=$rolunk[2]['kepalt'] ?>">
@@ -11,13 +12,13 @@
 <p>Ha a kedves állatbarátok is úgy vélik, hogy közel 1000 befogadott kis védencünk megérdemli a támogatást, talán nemsokára lesz majd annyi adományozónk, hogy az állatotthon teljes fenntartását fedezni tudjuk a befolyó felajánlásokból.</p>
 <p>Jelenleg évi kb. 120 millió forintra lenne szükségünk az állatok ellátásához, gyógyíttatásához, kezeléséhez és az állatotthon fenntartásához. További pénzekből tudnánk fejleszteni, bővíteni, további férőhelyeket, karanténokat, orvosi szobát kialakítani. Terveink között szerepel egy felnőtt kutya és kölyök kutya karantén létrehozása, valamint egy oktatóközpont kialakítása.</p>
 
-<h3>Nálunk nincs altatás</h3>
+<h2>Nálunk nincs altatás</h2>
 <img src="<?='./images/'.$rolunk['3']['kepforras']?>" alt="<?=$rolunk[3]['kepalt'] ?>">
 <p>Alapítványunk egyik legfontosabb alapelve, hogy minden élőlénynek joga van az élethez, ezért egyetlen állatot sem altatunk el (kivéve természetesen a súlyosan sérült, szenvedő menthetetleneket), legyen bár létszám fölötti, születési vagy szerzett testi hibás, öreg, élete végéig kezelésre, drága diétára szoruló vagy egyszerűen csak csúnyácska.</p>
 <p>A "bicebócák", a "vaksik" is teljes életet élhetnek állatotthonunkban, ahol külön részleget alakítottunk ki az idős állatoknak és azoknak a kutyáknak, akik valamilyen korábbi trauma miatt nem képesek beilleszkedni kutyatársaik és az emberek közé.</p>
 <p>Utóbbiak a "Lelkibeteg Udvar" lakói, akiket korábban bántalmaztak, megkínoztak és akiket a szakembereknek nem sikerült rehabilitálniuk olyan mértékben, hogy gazdához adhassuk őket.</p>
 
-<h3>Állatmentés és egyéb tevékenységek</h3>
+<h2>Állatmentés és egyéb tevékenységek</h2>
 
 <p>Állatmentő szolgálatunk elsődleges célja az utak mentén elütött és sorsukra hagyott, vagy más módon bántalmazott, sérült állatok azonnali állatorvoshoz juttatása és megfelelő ellátásban való részesítése.</p>
 <p>Gyakran riasztanak minket állatkínzások kapcsán is; ilyenkor nem csak az állatról kell gondoskodnunk, hanem arról is, hogy a bűncselekmény elkövetője ellen eljárás induljon.</p>
@@ -27,7 +28,7 @@
 <p>Ennek keretein belül 2004 tavaszától elindult Állatvédelmi Oktató Programunk, melynek részeként általános és középiskolás csoportok "kihelyezett" biológia óráikat állatotthonunkban tartják, illetve iskolanapokra, osztályfőnöki órákra látogatunk el állatorvosokkal. Fontosnak tartjuk, hogy már egész kis korban megkezdődjön a gyermekek állat- és természetszeretetre való nevelése, és hogy minden fiatal megismerkedhessen a felelős állattartás alapjaival, a kedvencként tartott állatok szükségleteivel, igényeivel.</p>
 <p>Az állatok védelméért folytatott munkánk elismeréseképpen 2002. október 04-én a Magyar Újságírók Országos Szövetsége Természet és Állatvédő Szakosztálya állatotthonunkat az Év Állatotthona címmel jutalmazta, más állatvédő szervezetek szavazatainak bevonásával.</p>
 
-<h3>Speciális programjaink</h3>
+<h2>Speciális programjaink</h2>
 <img src="<?='./images/'.$rolunk['5']['kepforras']?>" alt="<?=$rolunk[5]['kepalt'] ?>">
 <p>2004 tavaszán elindult egyik legnagyobb programunk, a MiniMenhely-projekt. A program egyedülálló kezdeményezés hazánkban, melynek célja a sintértelepekre került, altatásra ítélt és megkínzott állatok szervezett mentése, rehabilitációja és új gazdához juttatása.</p>
 <p>A program keretében egy 10 kenneles "mini menhely részleg" épült fel 100%-ban önkéntes munkával állatotthonunk területén, a többi kenneltől teljesen elszeparáltan, ami azóta is folyamatosan fogadja a rászoruló kutyákat. Mostanra a Minimenhely kenneljeinek száma gyakorlatilag megtriplázódott, így egyre több rászorulón tudunk segíteni. A MiniMenhely-program alapítványunk eddigi legnagyobb költségvetéssel működő projektje, hiszen a sintértelepekről az esetek nagy százalékában betegen kerülnek ki az állatok és gyakran hónapokig tartó kezelést igényelnek, mielőtt beköltözhetnek a menhelyre, ahol önkéntesek és szakemberek végzik további - gyakran rengeteg időt és türelmet igénylő - testi-lelki rehabilitációjukat.</p>

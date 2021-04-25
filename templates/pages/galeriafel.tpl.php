@@ -1,4 +1,5 @@
-<h1>Feltöltés a galériába:</h1>
+<h1>Feltöltés a galériába</h1>
+<br>
 <?php
     if (isset($_POST['kuld'])) {
      foreach($_FILES as $fajl) {

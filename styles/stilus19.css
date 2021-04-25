@@ -1,66 +1,70 @@
-header {
-    background-color: rgb(194, 114, 114);
-    vertical-align:bottom;
-    margin: 0px;
-    text-align: right;
+#erold{
+    background-color: aqua;
+    width:25%;
 }
-
-header img {
-    float:left;
-    margin: 0px;
-    padding: 0;
-    height: 70px;
-}
-
-header strong {
-    height: 30px;
-}
-
 body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    font-family:Calibri;
 }
 
-div#wrapper {
-    margin: 0px;
+h1{
+    font-style: initial;
+    text-decoration: underline;
+    padding-top: 5px;
 }
+
+h2{
+    font-style: initial;
+    text-decoration:underline;
+    padding-top: 5px;
+}
+
+p{
+    text-align:justify;
+}
+
+#kapcsolat{
+    margin: 0px 60px;
+    background-color:#ADEAFF;
+    width: 100%;
+}
+
+#terkep{
+    display:inline-table;
+    padding: 20px;
+}
+
+#urlap{
+    display:inline-table;
+    padding: 30px;
+    margin-left:20px;
+}
+
+#reg{
+    background-color: #d45334;
+}
+
+#leftbelep{
+    float:left;
+    width:200px;
+}
+#rightbelep{
+    float:right;
+}
+
+
+.navbar{
+    font-family:Impact;
+}
+
+
 
 header nav {
     margin: 0;
     top: 30px;
-
     background-color: #ffffff;
-}
-
-header nav ul {
-    overflow: hidden;
-    list-style-type:none;
-    margin: 0px;
-    padding: 0;
-}
-
-header nav ul li {
-    float: left;
-}
-
-
-header nav ul a {
-    text-decoration: none;
-    color: rgb(17, 4, 202);
-    background-color: white;
-    display: block;
-    text-decoration: none;
-    font-size: x-large;
-    font-family:monospace;
-    height:40 px;
-    line-height: 40px;
-    font-weight: bold;
-    padding: 0px 15px;
-}
-
-header nav ul a:hover {
-    background-color: rgb(184, 184, 184);
 }
 
 div#content {
@@ -78,12 +82,6 @@ div#content img{
     padding: 3px;
 }
 
-footer {
-    margin: 10px;
-    padding: 5px 20px;
-    background-color: white;
-}
-
-footer table td {
-    padding: 2px 10px 2px 0px;
+table{
+    vertical-align: middle;
 }
