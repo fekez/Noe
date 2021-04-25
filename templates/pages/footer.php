@@ -46,11 +46,5 @@
             <?php if(isset($lablec['ceg'])) { ?><?= $lablec['ceg']; ?><?php } ?>
         </div>
     </div>
-    <!-- Copyright -->
+
 </footer>
-
-<!-- Grid row -->
-
-
-<!-- Footer Text -->
-
