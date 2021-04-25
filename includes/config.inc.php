@@ -38,7 +38,7 @@ $oldalak = array(
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0,0)),
     'regisztral' => array('fajl' => 'regisztral', 'szoveg' => '', 'menun' => array(0,0)),
     'galeriafel' => array('fajl' => 'galeriafel', 'szoveg' => 'Képfeltöltés', 'menun' => array(0,1)),
-    'feldolgoz' => array('fajl' => 'feldolgoz', 'szoveg' => 'Feldolgoz', 'menun' => array(1,1))
+    'feldolgoz' => array('fajl' => 'feldolgoz', 'szoveg' => 'Feldolgoz', 'menun' => array(0,0))
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');

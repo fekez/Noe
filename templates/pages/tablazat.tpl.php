@@ -8,7 +8,6 @@
         $sth = $dbh->prepare($sqlSelect);
         $sth->execute();
         $row = $sth->fetchAll(PDO::FETCH_ASSOC);
-        print_r($row);
         ?><table class="tablazat">
             <tr>
                 <th>Dátum</th>
@@ -20,11 +19,12 @@
         <?php
         foreach($row as $sor) {
             ?><tr>
-               <th><?= print($sor['datum'])?></th>
-               <th><?= print($sor['ido'])?></th>
-               <th><?= print($sor['nev'])?></th>
-               <th><?= print($sor['email'])?></th>
-               <th><?= print($sor['szoveg'])?></th>
+               <th><?= $sor['datum']?></th>
+               <th><?= $sor['ido']?></th>
+               <th><?= $sor['nev']?></th>
+               <th><?= $sor['email']?></th>
+               <th><?= $sor['szoveg']
+               ?></th>
             </tr>   <?php   }   ?></table><?php
         }
     catch (PDOException $e) {

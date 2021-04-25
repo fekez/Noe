@@ -3,11 +3,11 @@
         <h1 >Kapcsolat</h1><br>
         <form name="left" action="?oldal=feldolgoz" method="post" onsubmit="return ellenoriz();" >
             <label>Név (minimum 5 karakter): </label>
-                <input type="text" id="nev" name="nev" size="20" maxlength="40"><br>
+                <input type="text" id="nev" name="nev" size="20" minlength="5" maxlength="45"><br>
             <label>E-mail (kötelező): </label>
-                <input type="text" id="email" name="email" size="30" maxlength="40"><br>
+                <input type="text" id="email" name="email" size="30" maxlength="50"><br>
             <label>Üzenet (kötelező): </label><br>
-            <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea><br>
+            <textarea id="szoveg" name="szoveg" cols="40" rows="10" minlength="1" maxlength="100"></textarea><br>
             <input id="kuld" type="submit" value="Küld">
         </form>
     </div>

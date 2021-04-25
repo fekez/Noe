@@ -11,7 +11,7 @@ function ellenoriz() {
 
 	var szoveg = document.getElementById("szoveg");
 	if (szoveg) {
-		if (szoveg.value.length==0) {
+		if (szoveg.value.length==0 || szoveg.value.length>100) {
 			rendben = false;
 			szoveg.style.background = '#f99';
 			fokusz = szoveg;
@@ -22,8 +22,8 @@ function ellenoriz() {
 
 	var email = document.getElementById("email");
 	if (email) {
-		var checkPattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/; //online segítség: https://regex101.com/
-		if (!checkPattern.test(email.value)) {
+		var checkPattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+		if (!checkPattern.test(email.value) || email.value.length>50) {
 			rendben = false;
 			email.style.background = '#f99';
 			fokusz = email;
@@ -34,7 +34,7 @@ function ellenoriz() {
 
 	var nev = document.getElementById("nev");
 	if (nev) {
-		if (nev.value.length<5) {
+		if (nev.value.length<5 || nev.value.length > 45) {
 			rendben = false;
 			nev.style.background = '#f99';
 			fokusz = nev;
