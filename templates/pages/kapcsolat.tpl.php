@@ -1,41 +1,22 @@
-<body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm" style="background-color:#ADEAFF;">
-            <h1 >Kapcsolat</h1>
-            <br>
+<div style="margin: 0px 60px; padding: auto; background-color:#ADEAFF; width: 100%;">
+    <div style="display:inline-table; padding: 20px;">
+        <h1 >Kapcsolat</h1><br>
+        <form name="left" action="?oldal=feldolgoz" method="post" onsubmit="return ellenoriz();" >
+            <label>Név (minimum 5 karakter): </label>
+                <input type="text" id="nev" name="nev" size="20" maxlength="40"><br>
+            <label>E-mail (kötelező): </label>
+                <input type="text" id="email" name="email" size="30" maxlength="40"><br>
+            <label>Üzenet (kötelező): </label><br>
+            <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea><br>
+            <input id="kuld" type="submit" value="Küld">
+        </form>
+    </div>
 
-            <form name="right" action="php/kapcsolat.php" onsubmit="return ellenoriz();" method="post">
-
-
-                <label><input type="text" id="nev" name="nev" size="20" maxlength="40">Név (minimum 5
-                    karakter): </label>
-                <br/>
-                <label><input type="text" id="email" name="email" size="30" maxlength="40">E-mail
-                    (kötelező): </label>
-                <br/>
-                <label> <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea> Üzenet
-                    (kötelező): </label>
-                <br/>
-
-                <input id="kuld" type="submit" value="Küld">
-                <button onclick="ellenoriz();" type="button">Ellenőriz</button>
-
-        </div>
-        <div class="row">
-            <div class="col-sm" style="background-color:#ADEAFF;">
-                <h2>Adatok:</h2>
-                <br>
-                <p>Ügyvezető: <strong>Valaki Az</strong></p>
-                <p>E-mail: <strong>valaki.az@minihonlap.hu</strong></p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2726.3375296155727!2d19.66695091525771!3d46.89607994478184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da7a6c479e1d%3A0xc8292b3f6dc69e7f!2sPallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar!5e0!3m2!1shu!2shu!4v1475753185783" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <br>
-                <a target="_blank" href="https://www.google.hu/maps/place/Pallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar/@46.8960799,19.6669509,17z/data=!3m1!4b1!4m5!3m4!1s0x4743da7a6c479e1d:0xc8292b3f6dc69e7f!8m2!3d46.8960763!4d19.6691396?hl=hu">Nagyobb térkép</a>
-
-            </div>
-        </div>
+    <div style="display:inline-table; padding: 20px;">
+        <h2>Elérhetőségeink:</h2><br>
+        <p>E-mail: <strong>info@noeallatotthon.hu</strong></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9068.959203737988!2d19.305520831329723!3d47.485672180415676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c727e291f24d%3A0xed53048b254a1976!2zTk_DiSDDgWxsYXRvdHRob24gQWxhcMOtdHbDoW55!5e0!3m2!1shu!2shu!4v1619348329584!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+        <a target="_blank" href="https://www.google.com/maps/place/NO%C3%89+%C3%81llatotthon+Alap%C3%ADtv%C3%A1ny/@47.4856722,19.3055208,15.25z/data=!4m8!1m2!2m1!1sBudapest+XVII.ker.+Csordak%C3%BAt+utca+138634%2F3+hrsz!3m4!1s0x4741c727e291f24d:0xed53048b254a1976!8m2!3d47.4848386!4d19.3100569">Nagyobb térkép</a>
     </div>
 </div>
-
-</form>
-</body>

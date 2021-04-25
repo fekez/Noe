@@ -6,10 +6,8 @@
 				 $vege = strtolower(substr($fajl, strlen($fajl)-4));
 				if (in_array($vege, $TIPUSOK)) {
 					 $kepek[$fajl] = filemtime($MAPPA.$fajl);
-					 echo $kepek[$fajl];
 				}
 			}
 		}
 		closedir($olvaso);
-
 ?>

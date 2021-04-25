@@ -1,14 +1,11 @@
-<div id="galeria">
-    <h1>Galéria</h1>
+<div id="galeria" style="margin: 0 auto;">
     <?php
         arsort($kepek);
         foreach($kepek as $fajl => $datum)  { ?>
-            <div class="kep">
+            <div class="kep" style="display: inline-block;">
                 <a href="<?php echo $MAPPA.$fajl ?>">
-                    <img src="<?php echo $MAPPA.$fajl ?>">
+                    <img style="width: 400px;" src="<?php echo $MAPPA.$fajl ?>">
                 </a>
-                <p>Név: <?php echo $fajl; ?></p>
-                <p>Dátum: <?php echo date($DATUMFORMA, $datum); ?></p>
             </div>
     <?php   }  ?>
 </div>

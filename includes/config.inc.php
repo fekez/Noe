@@ -4,7 +4,7 @@ $ablakcim = array(
 );
 
 $fejlec = array(
-    'kepforras' => 'logo.gif',
+    'kepforras' => 'logo.png',
     'kepalt' => 'Noé Állatotthon Alapítvány',
 	'cim' => 'Noé Állatotthon Alapítvány');
 
@@ -36,15 +36,16 @@ $oldalak = array(
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'Belépés', 'menun' => array(1,0)),
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0,1)),
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0,0)),
-    'regisztral' => array('fajl' => 'regisztral', 'szoveg' => '', 'menun' => array(0,0))
+    'regisztral' => array('fajl' => 'regisztral', 'szoveg' => '', 'menun' => array(0,0)),
+    'galeriafel' => array('fajl' => 'galeriafel', 'szoveg' => 'Képfeltöltés', 'menun' => array(0,1)),
+    'feldolgoz' => array('fajl' => 'feldolgoz', 'szoveg' => 'Feldolgoz', 'menun' => array(1,1))
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
 
-$MAPPA = './images/';
+$MAPPA = './images/galeria/';
 $TIPUSOK = array ('.jpg', '.png', 'gif');
 $MEDIATIPUSOK = array('image/jpeg', 'image/png', 'image/gif');
 $DATUMFORMA = "Y.m.d. H:i";
 $MAXMERET = 500*1024;
-
 ?>

@@ -20,3 +20,5 @@
         </ul>
     </div>
 </nav>
+<p style="text-align:right; background-color: #12c3ff;">  <?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']."
+            ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?></p>

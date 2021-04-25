@@ -1,33 +1,33 @@
-<table class="tablazat">
-    <caption>5. gyakorlat 1. feladat:<br>TÁBLÁZAT</caption>
-    <tr>
-        <th>Employee</th>
-        <th>Salary</th>
-        <th>Bonus</th>
-        <th>Supervisor</th>
-    </tr>
-    <tr>
-        <td>Stephen C. Cox</td>
-        <td>$300</td>
-        <td>$50</td>
-        <td>Bob</td>
-    </tr>
-    <tr>
-        <td>Josephin Tan</td>
-        <td>$150</td>
-        <td>-</td>
-        <td>Annie</td>
-    </tr>
-    <tr>
-        <td>Joyce Ming</td>
-        <td>$200</td>
-        <td>$35</td>
-        <td>Andy</td>
-    </tr>
-    <tr>
-        <td>James A. Pentel</td>
-        <td>$175</td>
-        <td>$25</td>
-        <td>Annie</td>
-    </tr>
-</table>
+<?php
+    try {
+        $dbh = new PDO('mysql:host=localhost;dbname=noe', 'root', '',
+                        array(PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION));
+        $dbh->query('SET NAMES utf8 COLLATE utf8_hungarian_ci');
+        
+        $sqlSelect = "SELECT datum, ido, nev, email, szoveg FROM uzenetek ORDER BY datum DESC, ido DESC";
+        $sth = $dbh->prepare($sqlSelect);
+        $sth->execute();
+        $row = $sth->fetchAll(PDO::FETCH_ASSOC);
+        print_r($row);
+        ?><table class="tablazat">
+            <tr>
+                <th>Dátum</th>
+                <th>Idő</th>
+                <th>Név</th>
+                <th>E-mail</th>
+                <th>Üzenet</th>
+            </tr>
+        <?php
+        foreach($row as $sor) {
+            ?><tr>
+               <th><?= print($sor['datum'])?></th>
+               <th><?= print($sor['ido'])?></th>
+               <th><?= print($sor['nev'])?></th>
+               <th><?= print($sor['email'])?></th>
+               <th><?= print($sor['szoveg'])?></th>
+            </tr>   <?php   }   ?></table><?php
+        }
+    catch (PDOException $e) {
+        $errormessage = "Hiba: ".$e->getMessage();
+    }
+?>

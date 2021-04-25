@@ -1,7 +1,7 @@
-CREATE DATABASE `gyakorlat7`
+CREATE DATABASE `noe`
 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-USE `gyakorlat7`;
+USE `noe`;
 
 CREATE TABLE `felhasznalok` (
   `id` int(10) unsigned NOT NULL auto_increment,
@@ -11,6 +11,7 @@ CREATE TABLE `felhasznalok` (
   `jelszo` varchar(40) NOT NULL default '',
   PRIMARY KEY  (`id`)
 )
+
 ENGINE = MYISAM
 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
@@ -27,3 +28,16 @@ INSERT INTO `felhasznalok` (`id`,`csaladi_nev`,`uto_nev`,`bejelentkezes`,`jelszo
  (10,'Családi_10','Utónév_10','Login10',sha1('login10')),
  (11,'Családi_11','Utónév_11','Login11',sha1('login11')),
  (12,'Családi_12','Utónév_12','Login12',sha1('login12'));
+
+CREATE TABLE `uzenetek` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `nev` varchar(45) NOT NULL default '',
+  `email` varchar(50) NOT NULL default '',
+  `szoveg` varchar(100) NOT NULL default '',
+  `datum` DATE, 
+  `ido` TIME,
+  PRIMARY KEY  (`id`)
+)
+
+ENGINE = MYISAM
+CHARACTER SET utf8 COLLATE utf8_general_ci;
